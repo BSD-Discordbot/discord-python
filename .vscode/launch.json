@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "DB_USER": "BSD",
+                "DB_PASS": "bonjour",
+                "DB_HOST": "localhost",
+                "DB_NAME": "BSD",
+                "API_URL": "http://localhost:8000/login",
+                "FRONT_URL": "http://localhost:5173",
+                "DISCORD_CLIENT_ID": "460020057867681792",
+                "DISCORD_CLIENT_SECRET": "K9isARp75UGATpfA7sJ9S5dKscZDqqGr",
+                "DISCORD_TOKEN": "NDYwMDIwMDU3ODY3NjgxNzky.GsCO71.i4Z_X34WlJpQYFiGyCSe8RS5hHUKsWaDNYHSr0"
+              }
+        }
+    ]
+}
